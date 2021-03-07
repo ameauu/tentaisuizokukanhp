@@ -1,0 +1,470 @@
+@charset "utf-8";
+
+body {
+margin: 0;
+font-family: "Hiragino Kaku Gothic ProN";
+    background-color: black;
+    }
+/*-----------------------------------------------------------*/
+header {
+    height: 100px;
+  
+}
+
+
+.logo {
+    height: 100px;
+       margin-left: 30px;
+    margin-top: 11px;
+}
+
+header-left {
+    float: left;
+ 
+}
+
+.header-right {
+    float: right;
+margin-right: 30px;
+}
+
+
+
+.header-right p {
+    margin-right: 20px;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+.header-right a {
+    color: azure;
+    text-decoration: none;
+}
+
+.topm {
+  margin-bottom: -14px;
+}
+
+.topm:hover {
+    opacity: 0.95;
+}
+
+.header-right p:hover {
+   opacity: 0.9;
+}
+
+header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    z-index: 800;
+}
+    
+.container {
+    height: 125px;
+    background-color: black;
+}
+
+
+/*-----------------------------------------------------------*/
+.kotei {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+
+.video-top {
+    text-align: center;
+    position: relative;
+    display: inline-block;
+}
+
+.top p {
+    font-family: NSimSun;
+    color: azure;
+    font-size: 70px;
+    position: absolute;
+    top: 430px;
+    left: 320px;
+    z-index: 100;
+} 
+
+#pp {
+    font-size: 26px;
+    letter-spacing: 10px;
+    left: 328px;
+}
+
+.top img {
+    position: absolute;
+    
+} 
+
+.top img:hover {
+    opacity: 0.8;
+}
+
+#topt {
+    top: 450px;
+    left: 520px;
+}
+
+#topg {
+    top: 450px;
+    left: 590px;
+}
+
+#topf {
+    top: 450px;
+    left: 660px;
+}
+/*-----------------------------------------------------------*/
+.center {
+    position: relative;
+    background-color: black;
+    z-index: 100;
+    background-image: url(16.png);
+background-size: cover;
+   height: 1000px;
+    margin-bottom: -42px;
+    margin-top: 0;
+}
+
+.bbdyh {
+    color: azure;
+    font-size: 40px;
+    text-align: left;
+   letter-spacing: 8px;
+    margin-left: 333px;
+  margin-bottom: -100px;
+}
+
+    
+.bbdyp {
+    color: azure;
+    font-size: 20px;
+    text-align: left;
+    padding-bottom: 40px;
+    margin-left: 100px;
+}
+
+
+.btn1 {
+    height: 70px;
+    width: 340px;
+    border: 2px solid;
+    border-color: azure;
+    margin-left: 230px;
+    margin-top: 20px;
+}
+
+
+.btn1 p{
+    font-size: 18px;
+   text-align: center;
+         margin-top: 22px;
+}
+
+.btn1 a {
+    color: azure;
+text-decoration: none;
+}
+
+#btn2 {
+    margin-top: 18px;
+}
+
+.btn1 p:hover {
+   opacity: 0.7;
+}
+/*-----------------------------------------------------------*/
+
+.center2 {
+    position: relative;
+   background-color: black;
+    z-index: 500;
+    margin-bottom: -42px;
+    margin-top: 0;
+    height: 1200px;
+    background-image: url(17.png);
+}
+
+
+
+#cen2p {
+     color: azure;
+    font-size: 20px;
+    text-align: left;
+   margin-top: 140px;
+    margin-left: 180px;
+}
+
+
+.sett {
+    color: azure;
+}
+
+.sett:hover {
+    opacity: 0.6;
+}
+
+
+#btn3 {
+    margin-left: 90px;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+
+#bbdyh-2 {
+    margin-left: 480px;
+    margin-top: -140px;
+}
+
+
+.bbdyh2 {
+    color: azure;
+    font-size: 40px;
+    text-align: right;
+   letter-spacing: 8px;
+  margin-bottom: -100px;
+}
+
+
+#bbdyh-22 {
+    margin-right: 480px;
+    margin-top: 430px;
+    margin-bottom: -110px;
+}
+
+.ri2 {
+    margin-top: -600px;
+}
+
+/*-----------------------------------------------------------*/
+
+hr {
+    color: azure;
+    height: 6px;
+    width: 98%;
+}
+
+
+.center3 {
+      position: relative;
+   background-color: black;
+    z-index: 500;
+    margin-bottom: -42px;
+    margin-top: 0;
+    height: 700px;
+    padding-top: 10px;
+}
+
+
+
+.bbdyhhh {
+    height: 200px;
+    background-color: black;
+       position: relative;
+    z-index: 500;
+    margin-top: -130px;
+}
+
+.bbdyhhh p {
+    color: azure;
+    font-size: 40px;
+     letter-spacing: 8px;
+    text-align: center;
+}
+
+    
+
+.cen3tt {
+      position: relative;
+   background-color: black;
+    z-index: 500;
+    margin-bottom: -42px;
+    margin-top: 0px;
+    height: 1730px;
+    padding-top: -500px;
+    margin-top: -100px;
+}
+    
+.cen3t {
+ float: left;
+    padding-left: 470px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    position: relative;
+    z-index: 500;
+}
+
+.cen3p {
+    color: azure;
+    padding-bottom: 40px;
+}
+
+.cen3ph {
+    margin-bottom: 0px;
+    font-family: serif;
+}
+
+.btncen3 {
+    height: 50px;
+    width: 280px;
+ background-color: darkcyan;
+    color: azure;
+}
+
+.btncen3 p {
+      font-size: 18px;
+   text-align: center;
+    padding-top: 14px;
+}
+
+.btncen3 a {
+    font-weight: bold;
+      color: azure;
+text-decoration: none;
+}
+
+.btncen3:hover {
+    opacity: 0.9;
+}
+
+.btncen33 {
+    padding-top: 80px;
+}
+
+
+/*-----------------------------------------------------------*/
+.center4 {
+    margin-top: 70px;
+    margin-left: 40px;
+}
+
+
+.btnx {
+    height: 130px;
+    width: 23%;
+    border: 2px solid;
+    border-color: azure;
+    margin-left: 230px;
+    margin-top: 20px;
+    float: left;
+     margin-left: 19px;
+    margin-top: 60px;
+    margin-bottom: 0px;
+}
+
+#btnx1 {
+    background-image: url(24-1.png);
+}
+
+#btnx2 {
+    background-image: url(24-2.png);
+}
+
+#btnx3 {
+    background-image: url(24-3.png);
+}
+
+#btnx4 {
+    background-image: url(24-4.png);
+}
+
+
+#btnx5 {
+    background-image: url(24-5.png);
+}
+
+#btnx6 {
+    background-image: url(24-6.png);
+}
+
+#btnx7 {
+    background-image: url(24-7.png);
+}
+
+#btnx8 {
+    background-image: url(24-8.png);
+}
+
+
+.btnx p:hover {
+    opacity: 0.8;
+}
+
+.btnx p{
+    font-size: 18px;
+   text-align: left;
+     margin-left: 112px;
+         margin-top: 55px;
+}
+
+.btnx a {
+    color: azure;
+text-decoration: none;
+}
+
+/*-----------------------------------------------------------*/
+.sba {
+    position: relative;
+    z-index: 500;
+    background-color: black;
+    text-align: center;
+}
+
+.sba a:hover {
+    opacity: 0.7;
+}
+
+.lasbtn {
+    margin-left: 30px;
+}
+
+.sbaimg {
+    margin-top: 30px;
+    padding-bottom: 40px;
+    margin-left: -40px;
+}
+
+
+/*-----------------------------------------------------------*/
+
+.foot {
+    margin-top: -20px;
+    color: azure;
+    font-size: 22px;
+     margin-left: -28px;
+}
+    
+/*-----------------------------------------------------------*/
+.footer {
+    background-color: darkcyan;
+    height: 680px;
+}
+
+.fotlef {
+    text-align: left;
+    margin-left: 300px;
+    margin-top: 100px;
+    padding-top: 30px;
+}
+
+.fotcen {
+   text-align: left;
+  float: left;
+    margin-top: -627px;
+     margin-left: 850px;
+}
+
+.fotrig {
+    text-align: left;
+    float: right;
+     margin-top: -627px;
+    margin-right: 300px;
+}
